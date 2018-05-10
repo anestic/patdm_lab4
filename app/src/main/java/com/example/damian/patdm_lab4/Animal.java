@@ -14,6 +14,7 @@ public class Animal implements Serializable
 
     public Animal(String gatunek, String kolor, float wielkosc, String opis)
     {
+        super();
         this.gatunek = gatunek;
         this.kolor = kolor;
         this.opis = opis;
