@@ -11,17 +11,58 @@
         android:id="@+id/editText"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="10dp"
         android:layout_centerHorizontal="true"
+        />
+
+    <Spinner
+        android:id="@+id/gatunek"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+
+        >
+
+    </Spinner>
+
+
+    <EditText
+        android:id="@+id/opis"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:hint="OPIS"
+        />
+
+    <EditText
+        android:id="@+id/wielkosc"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:hint="WIELKOSC"
+        />
+
+    <EditText
+        android:id="@+id/kolor"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:hint="KOLOR"
         />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="450dp"
         android:layout_centerHorizontal="true"
         android:text="submit"
         android:onClick="wyslij"
         />
+
+
 
 </RelativeLayout>
